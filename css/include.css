@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{height:80px;line-height:80px;border-bottom:1px solid #e5e5e5;margin-bottom:30px;}
+
+#header h1{float:left;margin-right:50px;}
+#header h1 a {}
+#header h1 a img{}
+
+
+
+.gnb{float:left;}
+.gnb li{float:left;font-weight:bold;padding:0 30px;}
+.gnb li a{color:#000;}
+
+/*서브메뉴*/
+
+.lnb{position:absolute;display:none;}/*처음에는 안보이게 처리*/
+.lnb li{line-height:30px;height: auto;font-weight:normal;font-size:13px;}
+.lnb li a{}
+.lnb li:hover a{color:blue;}
+
+/*호버 메뉴 띄우기*/
+.gnb li:hover .lnb{display:block;}/*마우스 클릭하면 목록 보이게*/
+
+
+/*서브메뉴*/
+
+
+.lang{float:right;}
+.lang li{float:left;font-size:13px;margin-left:15px;}
+.lang li:hover a{color:blue;}
+.lang li a{color:#555;}
+
+
+/*footer*/
+#footer{font-size:11px;letter-spacing:-1px;color:#aaa;padding:30px 0;border-top:1px solid #ddd;}/*에프메뉴 엘아이 에이태그에도 줘야한다!*/
+#footer .inner{position:relative;}
+
+.f_logo{display:inline-block;vertical-align:middle;margin-right:30px;}/*버티컬어라인은 인라인 블락일때만 쓰일수있다!*/
+.f_logo img{}
+
+
+.f_info{display:inline-block;vertical-align:middle;}
+
+
+.f_menu{margin-bottom:10px;}
+.f_menu li{float:left;}
+.f_menu li:after{content:"";display:inline-block;width:1px;height:8px;background:#ddd;margin:0 5px;}
+.f_menu li:last-child:after{display:none;}
+
+.f_menu li{}
+.f_menu li a{color:#aaa;}
+
+.f_info p{}
+
+.fMark{position:absolute;right:0;top:0;}/*엡솔루트띄우고 푸터.이너에서 기준점 릴레이티브 줘야한다.*/
+.fMark a{} 
+.fMark a img {}
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+#container{}
+
+/*메인슬라이드*/
+#mainSlider{height:600px;overflow:hidden;position:relative;}
+#mainSlider img{position:absolute;left:50%;margin-left:-960px;}
+
+
+.sliderBtn{position:absolute;}
+.sliderBtn li{float:left;text-indent:-9999px;}
+.sliderBtn li a{display:block;}
+
+
+
+.sliderLBtn{bottom:30px;left:50%;margin-left:-600px;}
+.sliderLBtn li{width:16px;height:16px;background:url(../images/main/blet_visual.png) no-repeat;margin-right:3px;}
+.sliderLBtn li:first-child{background-position: 0 -16px;}
+.sliderLBtn li a{}
+
+
+
+.sliderRBtn{bottom:0;right:50%;margin-right:-600px;}
+.sliderRBtn li{width:45px;height:45px;background:url(../images/main/btn_visual_cnt.png) no-repeat -46px 0;margin-left:1px;}
+.sliderRBtn li:first-child{background-position:0 0;}
+.sliderRBtn li:last-child{background-position:-92px 0;}
+
+/*mainCon01*/
+.mainCon01{background:#1c97fe;height:350px;padding:50px 0;}
+.mainCon01 h2{font-size:11px;color:#fff;}
+.mainCon01 h2 img{}
+
+.con01 {width:273px;float:left;margin-right:36px;color:#fff;font-size:11px;}
+.con01:last-child{margin-right:0;}
+.con01 h3{font-size:20px;}
+.con01 a{width:280px;font-size:15px;color:#fff;}
+.con01 a img{padding:10px 0;width:100%;}
+.con01 p{}
+/*mainCon01*/
+
+/*mainCon02*/
+.mainCon02{text-align:center;background:url(../images/main/brandSite_bg.png) no-repeat center center;padding:50px 0;background-size:cover;}/*백그라운드 커버 백퍼 차이점*/
+.mainCon02 h2{margin-bottom:30px;}
+.mainCon02 h2 img{}
+
+
+
+.con02{width:273px;float:left;margin-right:36px;color:black;font-size:18px;}
+.con02:last-child{margin-right:0;}
+.con02 img{padding:10px 0;width:100%;display:block;}/*위드 백퍼 부모영역 273px 맞게 그리고 이미지가 인라인이라 피테그(블락)와 이미지 중간사이에 공백생김-엔터때문에 블락으로 만들어준다 */
+.con02 p{font-weight:bold;margin:20px 0;}
+.con02 p span{font-size:12px;}
+.viewBtn{width:130px;background:#263d94;margin:0 auto;display:block; color:#fff;height: 40px;line-height:40px;border-radius:20px;letter-spacing:1px;}
+/*mainCon02*/
+
+/*mainCon03*/
+.mainCon03{padding:50px 0;}
+.mainCon03 h2{text-align:center;font-size:11px;color:#fff;margin-bottom:30px;}
+.mainCon03 h2 img{}
+
+.brandMenu{}
+.brandMenu li{width:376px;float:left;margin-right:36px;box-shadow:0 3px 10px; rgba(0,0,0,0.3);}
+.brandMenu li:last-child{margin-right:0;}
+.brandMenu li img{width:100%;display:block;}/*이미지가 인라인이라 피테그(블락)와 이미지 중간사이에 공백생김-엔터때문에 블락으로 만들어준다 */
+.brandInfo{padding:20px;}
+.brandInfo p{margin-bottom:20px;}
+.brandInfo .viewBtn{width:110px; background:#1c97fe;margin:0;text-align:center;}/*마진영오토에서 마진영을 해놓은이유는 뷰버튼중간이 아니라 왼쪽으로 하기 위해서*/
+/*mainCon03*/
+
+
+
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+#mainSlider{position:relative;}
+#mainSlider img{width:100%;display:block;}/*이미지 인라인요소라 엔터값 공백 -->블락처리*/
+
+
+
+
+.sliderBtn{position:absolute;}
+.sliderBtn li{float:left;text-indent:-9999px; }
+.sliderBtn li a{display: block;height:100%;}
+
+
+
+.sliderLBtn{left:10px;bottom:10px;}
+.sliderLBtn li{width:16px;height:16px; background:url(../images/main/blet_visual.png)no-repeat;margin-right:3px;}
+.sliderLBtn li:first-child{background-position: 0 -16px;}
+.sliderLBtn li a{}
+
+
+
+
+.sliderRBtn{right:0;bottom:0;}
+.sliderRBtn li{width:45px;height:45px; background:url(../images/main/btn_visual_cnt.png)no-repeat;margin-left: 1px;}
+.sliderRBtn li:nth-child(2){background-position: -46px 0;}
+.sliderRBtn li:last-child{background-position:-92px 0; }
+
+.sliderRBtn li a{}
+
+
+
+.mainCon01{}
+.mainCon01 h2{text-align:center;margin:20px 0;}
+.mainCon01 h2 img{width:150px;}
+
+.conList01{}
+.conList01 li{}
+.conList01 li{background:url(../images/main/brandSite_img01.jpg) no-repeat center center;padding: 20px;background:cover;margin-bottom:2px;}
+.conList01 li:nth-child(2){background-image: url(../images/main/brandSite_img02.jpg);}
+.conList01 li:nth-child(3){background-image: url(../images/main/brandSite_img03.jpg);}
+
+.conList01 li a{color: #fff;}
+.conList01 li h3{font-size:25px;font-weight:normal;padding-top:30%;}
+
+
+/*mainCon02*/
+
+
+.mainCon02{}
+.mainCon02 li{float:left;width:calc(50% - 1px);margin-right: 2px;margin-bottom:2px; background:#1C97FE;color:#fff;}/*엘아이는 인라이니아니라 블락이다!모바일에서는 픽셀말고 50퍼센트로*/
+.mainCon02 li:nth-child(2n){margin-right:0;}
+.mainCon02 li a{display:block;color:#fff;}
+.mainCon02 li a img{width:100%;display:block;}
+
+.con02Txt{padding:5%;}
+.con02Txt h5{font-size:15px;margin-bottom:5%;}
+.con02Txt p{font-size:12px;}
+
+
+/*모바일:칼큘레이터:옆에 공간때문에 1픽셀 빼줘야한다.찌그러지지않게*/
+/*mainCon02*/
+
+
+/*mainCon03*/
+.mainCon03{}
+.mainCon03 h2{text-align:center;margin:20px 0;}
+.mainCon03 h2 img{width:180px;}
+
+.pdtImg,.pdtTex{width:50%;float:left;}
+.pdtList{}
+.pdtList a{overflow: hidden;display:flex;  color:#333;}
+.pdtList:nth-child(2n) a{flex-direction:row-reverse;}
+
+.pdtImg{position: relative;}
+.pdtImg img{position: absolute;max-width: 100%;max-height:100%;width: 100%;height: 100%; top:0;left:0;right:0;bottom: 0;margin:auto;}/*가변이미지*/
+
+
+.pdtTex{background:#f1f1f1;padding:20px;box-sizing: border-box;}
+.pdtTex h3{}
+.pdtTex p{margin-top:10px;font-size:11px;letter-spacing:1px;}
+/*mainCon03*/
